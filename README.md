@@ -7,6 +7,8 @@
 노력으로 승부하는 초보 백엔드 개발자입니다!
 
 Skill
+<img src="https://img.shields.io/badge/JAVAScript-F7DF1E?style=flat&logo=React&logoColor=white"/>
+
 
 Studying
 

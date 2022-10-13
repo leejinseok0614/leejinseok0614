@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=slicer&color=auto&height=200&section=header&text=Hello%20I'm%20LeeJinSeok&fontSize=60)
+![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=200&section=header&text=Hello%20I'm%20LeeJinSeok&fontSize=60)
 
 Studying
 

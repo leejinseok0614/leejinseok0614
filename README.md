@@ -2,8 +2,6 @@
 
 <div align=center>
   
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=james137957)](https://solved.ac/james137957/)
-  
 **◆ Introduction**
 
 안녕하세요! <br/> 백엔드 개발자를 희망하고 있는 대학생입니다!<br/>
@@ -23,6 +21,8 @@
 **◇ Studying**
 
 <a href="https://velog.io/@leejinseok0614"><img src="https://img.shields.io/badge/Velog-3DDC84?style=flat-square&logo=Blogger&logoColor=white"/></a>
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=james137957)](https://solved.ac/james137957/)
 
 </div>
 

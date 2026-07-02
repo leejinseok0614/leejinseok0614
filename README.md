@@ -1,59 +1,185 @@
-# Jinseok Lee
+# Hi, I'm Jinseok Lee 👋
 
-Backend-focused developer interested in AI agent systems, automation, and practical workflow engineering.
+**AI Platform / Backend Engineer** passionate about building production-ready AI systems, LLM platforms, workflow automation, and developer tooling.
 
-I like building systems that reduce repetitive work and make operational flows easier to reason about. Recently I have been focusing on LangGraph-style agent orchestration, QA automation, and backend architecture that can grow without becoming hard to maintain.
+I enjoy solving engineering problems by understanding systems internally rather than treating frameworks as black boxes.
 
-## Focus Areas
+Most of my work focuses on designing AI platforms, integrating LLMs into production services, building automation that removes repetitive work, and creating backend architectures that remain maintainable as products evolve.
 
-- Backend architecture with PHP, Laravel, Node.js, and Python
-- AI agent workflow design with LangGraph / LangChain
-- Browser, API, and DB-based QA automation
-- Speech evaluation and AI feedback pipelines
-- Practical automation for developer productivity
+---
 
-## Featured Projects
+# What I'm Working On
 
-### JARVIS Workflow Engine
+Currently interested in:
 
-LangGraph-based multi-agent workflow engine inspired by JARVIS-style task orchestration.
+* AI Platform Engineering
+* Multi-Agent Systems
+* LangGraph & LangChain
+* Amazon Bedrock
+* LLM Infrastructure
+* AI Workflow Orchestration
+* Developer Tooling
+* QA Automation
+* Production AI Systems
 
-- [Backend](https://github.com/leejinseok0614/jarvis-workflow-engine-backend): Python, FastAPI, LangGraph, prompt-based tool execution
-- [Frontend](https://github.com/leejinseok0614/jarvis-workflow-engine-frontend): Next 16 workflow visualization and execution trace viewer
-- [Monorepo](https://github.com/leejinseok0614/jarvis-workflow-engine): original integrated version
+---
 
-### StudySharing
+# Professional Experience
 
-Android capstone project for sharing study records and code in an SNS-style mobile experience.
+Over the past few years, I've been building and operating AI-powered services used in production.
 
-- Kotlin / Android
-- Firebase
-- MVVM, ViewModel, LiveData
-- Feed, profile, comment, follow, notification flow
+### AI Platform
 
-### JSP / PHP Study Projects
+* Designed and developed user-facing AI services powered by GPT and Claude.
+* Built internal AI platforms integrated with administration systems.
+* Implemented prompt engineering and AI workflow optimization.
+* Developed backend services for AI APIs and production workloads.
+* Refactored AI infrastructure to improve maintainability and operational stability.
 
-Older repositories documenting web fundamentals through practical implementations.
+---
 
-- JSP BBS: login, session, board CRUD, JDBC
-- JSP Lecture Evaluation: JSP-based lecture evaluation UI/service flow
-- Hackers Test: PHP account flow, Ajax, layout separation
+### Speech AI
 
-## Tech Stack
+Built production speech evaluation services using Azure Speech.
+
+Responsibilities included:
+
+* Pronunciation assessment
+* Speaking evaluation
+* AI-generated feedback
+* Serverless backend architecture with AWS Lambda
+
+---
+
+### AI Automation
+
+Designed automation systems to reduce engineering effort.
+
+Examples include:
+
+* AI-powered PDF parsing
+* Internal MCP Server development
+* Developer workflow automation
+* AI-assisted operational tooling
+
+---
+
+### QA Automation
+
+Built prompt-driven QA systems capable of validating complete service flows.
+
+Coverage:
+
+* Browser Automation (Playwright)
+* API Validation
+* Database Verification
+* End-to-end Regression Testing
+
+---
+
+### Backend Engineering
+
+Daily technologies:
+
+* PHP / Laravel
+* Python / FastAPI
+* Node.js
+* REST API
+* AWS Lambda
+* PostgreSQL
+* MySQL
+
+I prefer designing backend systems with clear boundaries between controllers, services, workflows, and infrastructure to keep them maintainable over time.
+
+---
+
+# Open Source Contributions
+
+One of my favorite ways to learn is reading framework source code.
+
+Rather than stopping at "it doesn't work", I enjoy understanding *why* it behaves that way.
+
+### LangChain AWS
+
+While integrating Amazon Bedrock Application Inference Profiles with Claude Sonnet 5, I discovered that `langchain-aws` silently disabled streaming because of an outdated client-side allowlist.
+
+I:
+
+* Reproduced the issue across multiple versions
+* Compared direct model invocation with Application Inference Profiles
+* Traced the execution flow inside `ChatBedrockConverse`
+* Identified the incorrect streaming capability validation
+* Proposed a future-proof fix
+* Documented a temporary workaround
+
+The issue was acknowledged by the LangChain maintainers and accepted for resolution.
+
+Issue:
+https://github.com/langchain-ai/langchain-aws/issues/1139
+
+I believe understanding framework internals is just as valuable as using their public APIs.
+
+---
+
+# Tech Stack
 
 ```text
-Backend     PHP, Laravel, Node.js, Python, FastAPI, REST API
-Frontend    React, Next.js, JavaScript, TypeScript
-AI / LLM    LangGraph, LangChain, GPT/Claude orchestration, RAG design
-QA          Playwright, Chromium automation, API/DB validation
-Infra       AWS Lambda, SSM Parameter Store, Docker
-Database    MySQL, PostgreSQL
+Languages
+PHP • Python • JavaScript • TypeScript • SQL
+
+Backend
+Laravel
+FastAPI
+Node.js
+REST API
+
+AI / LLM
+LangGraph
+LangChain
+OpenAI GPT
+Claude
+Amazon Bedrock
+Prompt Engineering
+RAG
+AI Agents
+
+Automation
+Playwright
+Browser Automation
+API Testing
+Database Validation
+
+Cloud
+AWS Lambda
+Docker
+AWS SSM Parameter Store
+
+Speech
+Azure Speech
+
+Database
+PostgreSQL
+MySQL
 ```
 
-## Engineering Notes
+---
 
-- Prefer maintainable structure over trendy implementation.
-- Keep orchestration state explicit.
-- Separate controller, service, agent, graph, and tool boundaries.
-- Design automation around actual operational bottlenecks.
-- Document repositories so future readers can understand intent quickly.
+# Engineering Principles
+
+Some principles I consistently follow:
+
+* Build platforms, not one-off features.
+* Understand framework internals before applying workarounds.
+* Prefer maintainability over clever implementations.
+* Keep orchestration explicit and observable.
+* Separate business logic from AI orchestration.
+* Automate repetitive operational tasks.
+* Design systems that remain understandable months later.
+
+---
+
+# GitHub
+
+Most repositories here are experiments, production-inspired prototypes, or tools exploring AI platform engineering, workflow automation, and backend architecture.
+
+Feel free to explore the code or reach out if you'd like to discuss AI systems, LangGraph, automation, or backend engineering.
